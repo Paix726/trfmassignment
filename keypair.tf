@@ -1,0 +1,7 @@
+
+
+resource "aws_key_pair" "deployer" {
+  key_name   = "deployer-key"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCpC6QZNwZCrvQTWz+iRgdHfzINEIkUxc7FiLtOI9I4l4APTAZkg2Ct4XJn/ZAam17dkAxVKbmnn60fzpbT8CSP9ZM1Re5uitY9LhsJYMrWUD+5auXkJZ6DjqssVv7FyYyqNUn156rgaXcOUZwqF/gntsgdEuUAo2Wrb5tZ7gKtX6P0VW9ujC1zXfGdjobLhDLWVXEDClGZvmRJOr1FdcxB3bq3bPMt6pHU2zFjdB+CRMhY9CaqZEY4bk2Ruq6oY2EUvoZ5B4J92qhWuotpszVcZvAojdmfb4wx3Hhmq/J/rfngmI5Vlp3Y+FBu4iB6OoPD75crGZhLUeBhucWhW5rYZ736ccrpEfzx2VCq5QkUma9HnufPLeeRjFwrYxO2Yy7u7LThWsPPvDXaWN3Jsf7WU0laa+StyRq36cDPEqfMZfIb6ADhJX2E5yvYNW2R/1+qdEJTcJEcQPrHsmKVqhdWhyBBzd/RtpXgXj1Rfuehdl3GgQXhkjI6LqAhUrbpAjs= ubuntu@ip-172-31-0-208"
+}
+
